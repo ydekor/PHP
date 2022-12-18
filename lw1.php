@@ -36,7 +36,3 @@ class Calculator
 $calculator = new Calculator();
 
 echo $calculator->sum(1)->sum(2)->product(3)->division(3)->getResult();
-
-echo $calculator->sum(3)->sum(3)->minus(3)->division(3)->getResult();
-// echo $calculator->sum(1.6)->sum(2.4)->product(4)->getResult();
-// echo $calculator->sum(1)->sum(2)->product(3)->division(0)->getResult();
